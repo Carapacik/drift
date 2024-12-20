@@ -5,33 +5,32 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.1.0 <4.0.0'
+  sdk: ">=3.6.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  devtools_extensions: ^0.2.1
-  devtools_app_shared: ^0.2.1
+  devtools_extensions: ^0.3.0
+  devtools_app_shared: ^0.3.0
   db_viewer:
   drift_db_viewer:
   rxdart: ^0.28.0
   flutter_riverpod: ^3.0.0-dev.0
-  vm_service: ^14.0.0
-  path: ^1.8.3
-  drift: ^2.12.1
-  logging: ^1.2.0
-  url_launcher: ^6.1.14
-  drift_dev: ^2.13.1
-  sqlite3: ^2.1.0
+  vm_service: ^14.3.0
+  path: ^1.9.0
+  drift: ^2.22.1
+  logging: ^1.3.0
+  url_launcher: ^6.3.1
+  drift_dev: ^2.22.1
+  sqlite3: ^2.5.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 dependency_overrides:
-  web: ^0.5.0
   db_viewer:
     git:
       url: https://github.com/simolus3/db_viewer.git
